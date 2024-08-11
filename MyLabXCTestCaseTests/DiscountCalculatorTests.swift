@@ -9,7 +9,7 @@ import XCTest
 @testable import MyLabXCTestCase
 
 /// 測試計算折扣的功能
-final class DiscountCalculatorTests: XCTestCase {
+class DiscountCalculatorTests: XCTestCase {
     
     func testDiscountCalculation() {
         // Arrange: 準備測試數據

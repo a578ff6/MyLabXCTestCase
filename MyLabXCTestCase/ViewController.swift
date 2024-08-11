@@ -9,11 +9,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var myLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        // 初始設置
+        myLabel.text = "Label"
     }
 
-
+    @IBAction func myButtonTapped(_ sender: UIButton) {
+        // 當按鈕點擊後，更新標籤的文字
+        myLabel.text = "Expected Text"
+    }
+    
 }
 
