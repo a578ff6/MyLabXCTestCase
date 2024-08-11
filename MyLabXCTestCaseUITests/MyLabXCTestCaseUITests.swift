@@ -8,7 +8,6 @@ import XCTest
 
 class MyLabXCTestCaseUITests: XCTestCase {
     
-    
     override func setUpWithError() throws {
         // 在每個測試之前設定初始狀態
         continueAfterFailure = false

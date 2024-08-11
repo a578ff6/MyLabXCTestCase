@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		939A3E4A2C67F1CA00F11593 /* DiscountCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939A3E492C67F1CA00F11593 /* DiscountCalculatorTests.swift */; };
+		939A3E4C2C69178D00F11593 /* CodeGeneratedUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939A3E4B2C69178D00F11593 /* CodeGeneratedUIViewController.swift */; };
 		93D6B8F22C6768AF0094F890 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D6B8F12C6768AF0094F890 /* AppDelegate.swift */; };
 		93D6B8F42C6768AF0094F890 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D6B8F32C6768AF0094F890 /* SceneDelegate.swift */; };
 		93D6B8F62C6768AF0094F890 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D6B8F52C6768AF0094F890 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		939A3E492C67F1CA00F11593 /* DiscountCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountCalculatorTests.swift; sourceTree = "<group>"; };
+		939A3E4B2C69178D00F11593 /* CodeGeneratedUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeGeneratedUIViewController.swift; sourceTree = "<group>"; };
 		93D6B8EE2C6768AF0094F890 /* MyLabXCTestCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLabXCTestCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D6B8F12C6768AF0094F890 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93D6B8F32C6768AF0094F890 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				93D6B8F12C6768AF0094F890 /* AppDelegate.swift */,
 				93D6B8F32C6768AF0094F890 /* SceneDelegate.swift */,
 				93D6B8F52C6768AF0094F890 /* ViewController.swift */,
+				939A3E4B2C69178D00F11593 /* CodeGeneratedUIViewController.swift */,
 				93D6B8F72C6768AF0094F890 /* Main.storyboard */,
 				93D6B8FA2C6768B00094F890 /* Assets.xcassets */,
 				93D6B8FC2C6768B00094F890 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93D6B8F62C6768AF0094F890 /* ViewController.swift in Sources */,
+				939A3E4C2C69178D00F11593 /* CodeGeneratedUIViewController.swift in Sources */,
 				93D6B8F22C6768AF0094F890 /* AppDelegate.swift in Sources */,
 				93D6B8F42C6768AF0094F890 /* SceneDelegate.swift in Sources */,
 			);
