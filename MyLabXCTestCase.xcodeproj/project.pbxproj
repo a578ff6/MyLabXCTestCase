@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9388FCDF2C6A1C5F00128B2F /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388FCDD2C6A1C5A00128B2F /* CalculatorViewController.swift */; };
+		9388FCE42C6A257500128B2F /* CalculatorViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388FCE32C6A257500128B2F /* CalculatorViewControllerTests.swift */; };
+		9388FCE62C6A545200128B2F /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388FCE52C6A545200128B2F /* CalculatorUITests.swift */; };
 		939A3E4A2C67F1CA00F11593 /* DiscountCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939A3E492C67F1CA00F11593 /* DiscountCalculatorTests.swift */; };
 		939A3E4C2C69178D00F11593 /* CodeGeneratedUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939A3E4B2C69178D00F11593 /* CodeGeneratedUIViewController.swift */; };
 		939A3E512C69DBE800F11593 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939A3E4F2C69DBE400F11593 /* APIService.swift */; };
@@ -40,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9388FCDD2C6A1C5A00128B2F /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		9388FCE32C6A257500128B2F /* CalculatorViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewControllerTests.swift; sourceTree = "<group>"; };
+		9388FCE52C6A545200128B2F /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		939A3E492C67F1CA00F11593 /* DiscountCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountCalculatorTests.swift; sourceTree = "<group>"; };
 		939A3E4B2C69178D00F11593 /* CodeGeneratedUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeGeneratedUIViewController.swift; sourceTree = "<group>"; };
 		939A3E4F2C69DBE400F11593 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
@@ -84,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9388FCE02C6A1C6200128B2F /* Integrated */ = {
+			isa = PBXGroup;
+			children = (
+				9388FCDD2C6A1C5A00128B2F /* CalculatorViewController.swift */,
+			);
+			path = Integrated;
+			sourceTree = "<group>";
+		};
 		93D6B8E52C6768AF0094F890 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +126,7 @@
 				93D6B8F52C6768AF0094F890 /* ViewController.swift */,
 				939A3E4B2C69178D00F11593 /* CodeGeneratedUIViewController.swift */,
 				939A3E4F2C69DBE400F11593 /* APIService.swift */,
+				9388FCE02C6A1C6200128B2F /* Integrated */,
 				93D6B8F72C6768AF0094F890 /* Main.storyboard */,
 				93D6B8FA2C6768B00094F890 /* Assets.xcassets */,
 				93D6B8FC2C6768B00094F890 /* LaunchScreen.storyboard */,
@@ -126,6 +141,7 @@
 				93D6B95D2C676B2A0094F890 /* MyLabXCTestCaseTests.swift */,
 				939A3E492C67F1CA00F11593 /* DiscountCalculatorTests.swift */,
 				939A3E522C69E05400F11593 /* APIServiceTests.swift */,
+				9388FCE32C6A257500128B2F /* CalculatorViewControllerTests.swift */,
 			);
 			path = MyLabXCTestCaseTests;
 			sourceTree = "<group>";
@@ -135,6 +151,7 @@
 			children = (
 				93D6B96A2C676B350094F890 /* MyLabXCTestCaseUITests.swift */,
 				93D6B96C2C676B350094F890 /* MyLabXCTestCaseUITestsLaunchTests.swift */,
+				9388FCE52C6A545200128B2F /* CalculatorUITests.swift */,
 			);
 			path = MyLabXCTestCaseUITests;
 			sourceTree = "<group>";
@@ -274,6 +291,7 @@
 				939A3E512C69DBE800F11593 /* APIService.swift in Sources */,
 				939A3E4C2C69178D00F11593 /* CodeGeneratedUIViewController.swift in Sources */,
 				93D6B8F22C6768AF0094F890 /* AppDelegate.swift in Sources */,
+				9388FCDF2C6A1C5F00128B2F /* CalculatorViewController.swift in Sources */,
 				93D6B8F42C6768AF0094F890 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +302,7 @@
 			files = (
 				939A3E4A2C67F1CA00F11593 /* DiscountCalculatorTests.swift in Sources */,
 				93D6B95E2C676B2A0094F890 /* MyLabXCTestCaseTests.swift in Sources */,
+				9388FCE42C6A257500128B2F /* CalculatorViewControllerTests.swift in Sources */,
 				939A3E532C69E05400F11593 /* APIServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93D6B96B2C676B350094F890 /* MyLabXCTestCaseUITests.swift in Sources */,
+				9388FCE62C6A545200128B2F /* CalculatorUITests.swift in Sources */,
 				93D6B96D2C676B350094F890 /* MyLabXCTestCaseUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
