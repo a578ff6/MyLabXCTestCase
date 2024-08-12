@@ -30,3 +30,4 @@ class DiscountCalculatorTests: XCTestCase {
     }
 
 }
+
